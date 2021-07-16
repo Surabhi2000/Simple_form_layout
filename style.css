@@ -1,0 +1,44 @@
+/*Navbar*/
+.logo{
+    height: 50px;
+    width: 60px;
+}
+
+.navbar{
+    border-bottom: 1px solid rgba(218, 213, 213, 0.753);
+}
+
+/*heading section*/
+.img-thumbnail{
+    border: none;
+}
+
+/*form section*/
+.sub-heading{
+    color: #0000FF;
+}
+
+.form-row{
+    margin-bottom: 15px;
+}
+
+.btn{
+    margin: 10px;
+}
+
+.upload{
+    margin-bottom: 10px;
+}
+
+.btn-final{
+    background-color: rgb(13, 100, 162);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 0 20px;
+}
+
+.btn-final:hover{
+    color: #fff;
+    background-color: #3490e1;
+}

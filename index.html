@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Task</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./healthy-life-logo_5417-13.jpg">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Alunoz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./healthy-life-logo_5417-13.jpg" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav ml-auto navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+    <!--Navbar section ends-->
+
+    <!--Heading section begins-->
+    <div class="container justify-content-center text-center">
+        <img src="healthy-life-logo_5417-13.jpg" class="img-thumbnail">
+        <div class="heading">
+            <h3>Customer Self-booking - Dr. Ashok C</h3>
+        </div>
+    </div>
+    <hr>
+    <!--Heading section ends-->
+
+    <!--Form section begins-->
+    <div class="container text-center justify-content-center">
+        <h5 class="sub-heading">
+            If you are an existing customer, type your Phone# to retrieve your details
+        </h5>
+        <br><br>
+        <form>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Customer Name: </h6>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Customer Phone: </h6>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Phone">
+                    <button class="btn btn-info">Check</button>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Customer Address: </h6>
+                </div>
+                <div class="col">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Enter address" rows="3"></textarea>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6> Gender: </h6>
+                </div>
+                <div class="col">
+                    <select id="inputState" class="form-control">
+                        <option> Male </option>
+                        <option> Female </option>
+                        <option> Prefer not to say </option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Customer Email: </h6>
+                </div>
+                <div class="col">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Select date and time: </h6>
+                </div>
+                <div class="col">
+                    <input type="date" class="form-control" id="inputEmail3" placeholder="date">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Select test: </h6>
+                </div>
+                <div class="col">
+                    <select class="custom-select" size="5">
+                        <option value="1">17 ALPHA-HYDROXY PROGESTERONE @ 1500</option>
+                        <option value="2">24 HR URINE CREATININE CLEARANCE @ 600</option>
+                        <option value="3">ABS. GRANULOCYTE COUNT @ 300</option>
+                        <option value="4">ABSOLUTE BASOPHIL COUNT @ 300</option>
+                        <option value="5">ABSOLUTE EOSINOPHIL COUNT @ 300</option>
+                        <option value="6">ABSOLUTE LEUCOCYTE COUNT @ 500</option>
+                        <option value="7">ABSOLUTE LYMPHOCYTE COUNT @ 300</option>
+                        <option value="8">ABSOLUTE MONOCYTE COUNT @ 300</option>
+                        <option value="9">ABSOLUTE NEUTROPHIL COUNT @ 300</option>
+                        <option value="10">ACETYLCHOLINE RECEPTOR ANTIBODIES @ 3000</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Comment: </h6>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="comment">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <h6>Upload prescription: </h6>
+                </div>
+                <div class="col">
+                    <input type="file" name="file1" class="upload" accept=".pdf, .jpg, .jpeg" size="50" value="">
+                    <input type="file" name="file2" class="upload" accept=".pdf, .jpg, .jpeg" size="50" value="">
+                    <input type="file" name="file3" class="upload" accept=".pdf, .jpg, .jpeg" size="50" value="">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <button class="btn btn-final">Done</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-final">Book Appointment</button>
+                </div>
+            </div>
+            
+            
+        </form>
+    </div>
+
+    <!--Form section ends-->
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
